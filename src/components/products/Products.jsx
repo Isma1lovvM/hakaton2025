@@ -14,7 +14,7 @@ function Products() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`https://68c810475d8d9f51473427eb.mockapi.io/3legant/products`)
+    fetch(`https://68d6bbe4c2a1754b426bbe49.mockapi.io/app/v1/product`)
       .then((res) => res.json())
       .then((res) => {
         console.log(res);
@@ -29,14 +29,10 @@ function Products() {
       // <SwiperSlide key={product.id}>
       <ProductItem
         key={product.id}
-        rating={product.rating}
         title={product.title}
-        category={product.category}
         price={product.price}
-        description={product.description}
-        oldPrice={product.oldPrice}
         id={product.id}
-        image={product.image}
+        image={product.img}
         index={index}
       />
       // </SwiperSlide>
