@@ -48,29 +48,11 @@ function Home() {
                 </NavLink>
               </button>
             </div> */}
-{/* 
-      <section className="one">
-        <h2>Join Our Newsletter</h2>
-        <p>Sign up for deals, new products and promotions</p>
-        <form action="">
-          <MdOutlineMail className="size" />
-          <input type="text" className="input" placeholder="Email address" />
 
-          <button className="sgnup">SignUp</button>
-        </form>
-      </section>   */}
     </main>
   );
 }
 
 export default Home;
 
-// <section className="one">
-//   <h2>Join Our Newsletter</h2>
-//   <p>Sign up for deals, new products and promotions</p>
-//   <form action="">
-//     <MdOutlineMail className="size" />
-//     <input type="text" className="input" placeholder="Email address" />
-//     <button className="sgnup">SignUp</button>
-//   </form>
-// </section>
+
