@@ -1,5 +1,5 @@
 import React from "react";
-import "./SimplyUnique.css";
+import "./simplyUnique.css";
 
 function SimplyUnique() {
   return (

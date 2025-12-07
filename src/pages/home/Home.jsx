@@ -16,7 +16,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { NavLink } from "react-router-dom";
 import { MdOutlineMail } from "react-icons/md";
 import HomeSwiper from "../../components/homeSwiper/HomeSwiper";
-import SimplyUnique from "../../components/simpyUnique/SimplyUnique";
+import SimplyUnique from "../../components/simplyUnique/SimplyUnique";
 import Category from "../../components/category/Category";
 import NewArrivals from "../../components/newArrivals/NewArrivals";
 import Support from "../../components/support/Support";
@@ -48,29 +48,11 @@ function Home() {
                 </NavLink>
               </button>
             </div> */}
-{/* 
-      <section className="one">
-        <h2>Join Our Newsletter</h2>
-        <p>Sign up for deals, new products and promotions</p>
-        <form action="">
-          <MdOutlineMail className="size" />
-          <input type="text" className="input" placeholder="Email address" />
 
-          <button className="sgnup">SignUp</button>
-        </form>
-      </section>   */}
     </main>
   );
 }
 
 export default Home;
 
-// <section className="one">
-//   <h2>Join Our Newsletter</h2>
-//   <p>Sign up for deals, new products and promotions</p>
-//   <form action="">
-//     <MdOutlineMail className="size" />
-//     <input type="text" className="input" placeholder="Email address" />
-//     <button className="sgnup">SignUp</button>
-//   </form>
-// </section>
+
