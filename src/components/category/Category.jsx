@@ -3,8 +3,8 @@ import "./category.css";
 
 import { NavLink } from "react-router-dom";
 import cart1Img from "../../assets/kuchu.jpg";
-import cart2Img from "../../assets/cart2.svg";
-import cart3Img from "../../assets/cart3.svg";
+import dogg1 from "../../assets/dog1.jpg"
+import gogg2 from "../../assets/dog2.jpg"
 import { FaArrowRight } from "react-icons/fa6";
 
 function Category() {
@@ -26,26 +26,26 @@ function Category() {
         <div className="twiceImgsBox">
           <div className="cart2">
             <div className="btns2">
-              <h3>Bedroom</h3>
+              <h3>Animals</h3>
               <button>
                 <NavLink to={"/shop"}>
                   Shop Now <FaArrowRight />
                 </NavLink>
               </button>
             </div>
-            <img className="imgg" src={cart2Img} alt="" />
+            <img className="imgg" src={dogg1} alt="" />
           </div>
 
           <div className="cart2">
             <div className="btns3">
-              <h3>Kitchen</h3>
+              <h3>Puppies</h3>
               <button>
                 <NavLink to={"/shop"}>
                   Shop Now <FaArrowRight />
                 </NavLink>
               </button>
             </div>
-            <img className="imgg" src={cart3Img} alt="" />
+            <img className="imgg" src={gogg2} alt="" />
           </div>
         </div>
       </div>
