@@ -1,0 +1,128 @@
+.w100 {
+  width: 100%;
+}
+
+.one {
+  background-image: url("../../assets/back.svg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  row-gap: 10px;
+  height: 335px;
+  width: 100%;
+}
+
+.one > h2 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: #141718;
+}
+
+.one > p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #141718;
+}
+
+.one > form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #141718;
+  background-color: transparent;
+}
+
+.one > form > input {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: #6c7275;
+  width: 400px;
+  margin-left: 8px;
+}
+
+.size {
+  font-size: 24px;
+}
+
+.sgnup {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6c7275;
+  background-color: transparent;
+  border: none;
+}
+
+/* .footerTop {
+  color: white;
+  display: flex;
+  padding: 80px 0 57px 0;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #6c7275;
+}
+
+.footerTop > span {
+  margin-left: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #e8ecef;
+}
+
+.footerList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 300px;
+}
+
+.footerLogo {
+  color: white;
+  padding-right: 32px;
+  border-right: 2px solid #6c7275;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #141718;
+  height: 249px;
+}
+
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 315px;
+  padding-top: 16px;
+  color: white;
+}
+
+.footerBottomLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.footerBottomRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.fntsize {
+    font-size: 24px;
+} */

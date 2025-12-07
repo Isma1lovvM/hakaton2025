@@ -1,0 +1,115 @@
+.swiperCart {
+  background-color: #f3f5f7;
+  width: 100%;
+  padding: 20px 20px 100px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  row-gap: 40px;
+  overflow: hidden;
+}
+
+.like {
+  right: -100%;
+  width: 55px;
+  position: absolute;
+}
+
+.swiperCart:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.swiperCart:hover .hoverBtn {
+  bottom: 20px;
+  transition: 0.35s;
+}
+
+.swiperBoxCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: auto;
+  row-gap: 15px;
+  width: 24%;
+  flex-direction: column;
+}
+
+.swiperText {
+  display: flex;
+
+  margin-top: 5px;
+  align-items: flex-start;
+  row-gap: 3px;
+  justify-content: center;
+  width: 100%;
+  text-align: start;
+  color: #141718;
+  flex-direction: column;
+}
+
+.swiperSpan {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.hehe {
+  width: 250px;
+  height: 225px;
+  margin-bottom: auto;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hoverBtn {
+  width: 90%;
+  padding: 15px 24px;
+  border-radius: 8px;
+  bottom: -100%;
+  position: absolute;
+  background-color: #141718;
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 16px 0px #00000009;
+}
+
+.line {
+  text-decoration: line-through;
+  color: #6c7275;
+}
+
+.imgsSaleBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 8px;
+  flex-direction: column;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.swiperCart:hover .like {
+  right: 0;
+  transition: 0.35s;
+}
+

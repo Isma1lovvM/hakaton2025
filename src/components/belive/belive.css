@@ -1,0 +1,18 @@
+.beliveTextB {
+  font-weight: 500;
+  width: 65%;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 40px 0 24px 0;
+  letter-spacing: -1px;
+  color: #141718;
+}
+
+.beliveText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;    
+  color: #141718;
+  width: 70%;
+  margin-bottom: 48px;
+}

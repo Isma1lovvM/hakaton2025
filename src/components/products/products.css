@@ -1,0 +1,203 @@
+.swiperBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-self: center;
+  width: 100%;
+  gap: 16px;
+  row-gap: 30px;
+}
+/* 
+.swiper-pagination-progressbar {
+  top: auto !important;
+  bottom: 0;  
+  left: 0;
+  width: 100%;   
+} */
+
+/* .swiper-pagination-progressbar-fill {
+  background: #000 !important; 
+} */
+/* 
+.renderBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+
+/* 3 ustun */
+@media (max-width: 1239px) {
+  .swiperBoxCart {
+    width: 32%;
+  }
+}
+
+/* 2 ustun */
+@media (max-width: 840px) {
+  .swiperBox {
+    display: flex;
+    align-items: center;
+  }
+
+  .swiperBoxCart {
+    width: 48%;
+  }
+}
+
+/* 1 ustun */
+@media (max-width: 560px) {
+  .swiperBoxCart {
+    width: 90%;
+  }
+
+  .swiperCart {
+    background-color: #f3f5f7;
+    width: 100%;
+  }
+}
+
+/* [
+  {
+    "title": "Divan, 1 kishilik, korvat, matrasli, uyqu uchun, yotoqxona uchun",
+    "image": [
+      "https://i.postimg.cc/VsHxQsQT/d0r02s27s4fo7mqb7220-removebg-preview-2.png",
+      "https://i.postimg.cc/nLkWdpG3/d0r02s27s4fo7mqb722g-removebg-preview-1.png",
+      "https://i.postimg.cc/g2ytJmQG/d0r02rr3uvph50a04ko0-removebg-preview.png"
+    ],
+    "price": 3879030,
+    "oldPrice": 3999000,
+    "description": "Uzoq xizmat qiluvchi, zamonaviy materiallar. Matras bilan Suvli yechimda komfort! Yumshoq orqa va xavfsiz chekkalar — qulaylik va tinchlik uchun. O‘lchami 90x200 sm",
+    "rating": "5",
+    "id": "1"
+  },
+  {
+    "title": "Divan Etro mini",
+    "image": [
+      "https://i.postimg.cc/nhcZpRSS/d1dt2tql822nnungurkg-removebg-preview.png",
+      "https://i.postimg.cc/50vWnZjy/d1dt26il822nnungur80-removebg-preview.png",
+      "https://i.postimg.cc/3xcM7KvW/d1dt2eil822nnungurc0-removebg-preview.png"
+    ],
+    "price": 3579300,
+    "oldPrice": 4830000,
+    "description": "Olchamlari: Uzunlik 142 sm x Eni 87 sm x Balandlik 79 sm Uxlash maydoni: Uzunlik 196 sm x Eni 120 sm x Balandligi 37 sm Yashash maydoni: Chuqurligi 61 sm x Balandligi 44 sm Ramka: kontrplak, tolali taxta, sunta Mato 1: Savana to'shagi Qo'llab-quvvatlaydi: tabiiy (metall)",
+    "rating": "4.5",
+    "id": "2"
+  },
+  {
+    "title": "Puma Light yig‘ma yog‘och chiziqli divan krovati",
+    "image": [
+      "https://i.postimg.cc/RV2Qzy04/d1v27ll2llnbjcof6meg-removebg-preview.png",
+      "https://i.postimg.cc/G23vQ1XJ/d1v27oviub3cuo9dba70-removebg-preview.png",
+      "https://i.postimg.cc/SN9Ycsyb/d1v27ot2llnbjcof6mg0-removebg-preview.png"
+    ],
+    "price": 5761800,
+    "oldPrice": 9900000,
+    "description": "Karkas – Fanera Mexanizm – Metall O‘rindiq asosiy qismi – mebel uchun elastik lenta PST25 zichlikdagi porolon – 12 sm Sintipon qatlami – 4 sm Kafolat – 6 oy",
+    "rating": "4",
+    "id": "3"
+  },
+  {
+    "title": "To'g'ri divan Vidi",
+    "image": [
+      "https://i.postimg.cc/ht64DFz4/d1eia52l822nnunh4gmg-removebg-preview.png",
+      "https://i.postimg.cc/GtLd7dNK/d1eiaca1146jmb901i90-removebg-preview.png",
+      "https://i.postimg.cc/GtLd7dNK/d1eiaca1146jmb901i90-removebg-preview.png"
+    ],
+    "price": 4006100,
+    "oldPrice": 5930000,
+    "description": "O'lchamlari: Uzunlik 146 sm x Eni 78 sm x Balandlik 87 sm Uyqu maydoni: Uzunlik 197 sm x Eni 120 sm x Balandligi 34 sm O'tirish maydoni: Uzunlik 120 sm x Chuqurlik 64 sm x Balandligi 43 sm Ochilganda: Uzunligi 146 sm x Eni 200 sm Qo'l dayamalarining poldan balandligi: 61 sm Ramka: kontrplak, tolali taxta, sunta Mato: Savana to'shagi",
+    "rating": "4",
+    "id": "4"
+  },
+  {
+    "title": "Divan Olivia Pro Woodline",
+    "image": [
+      "https://i.postimg.cc/7Pc8p3p0/d1ucr5d2llnbjcof1q60-removebg-preview.png",
+      "https://i.postimg.cc/x1P0DkGQ/d1ucr6l2llnbjcof1q80-removebg-preview.png",
+      "https://i.postimg.cc/xTDYXGtY/d1ucr5t2llnbjcof1q70-removebg-preview.png"
+    ],
+    "price": 9021000,
+    "oldPrice": 12400000,
+    "description": "Ramka: LMDF panellari 16 mm, quvurli metall profil, qarag'ay yog'och, HDF panellari O'z ichiga oladi: divan, 3 ta katta va 2 ta kichik yostiq Transformatsiya mexanizmi: delfin Saqlash bo'limi: pnevmatik ko'tarish mexanizmi bilan + qo'ltiqdagi bo'linma Olinadigan chexol: ha O'rindiq to'ldiruvchisi: ruscha mustaqil siqish kamonlari bloki - TFK va ko'pikli kauchuk qatlami 28 zichlik (4 sm)  Yostiqni to'ldirish: ko'pikli kauchuk, holofiber va to'ldiruvchi polyester  Bir o'rindiq uchun maksimal yuk: 130 kg Mato: Rolex Kafolat: 2 yil",
+    "rating": "5",
+    "id": "5"
+  },
+  {
+    "title": "",
+    "image": [
+      "https://i.postimg.cc/138Kb61n/d1du2721146jmb8vsfeg-removebg-preview.png",
+      "https://i.postimg.cc/zvqjQcq8/d1du1sgs9rf9j55t172g-removebg-preview.png",
+      "https://i.postimg.cc/ydHXJbgc/d1du1tql822nnungvc60-removebg-preview.png"
+    ],
+    "price": 4947000,
+    "oldPrice": 7200000,
+    "description": "O'lchamlari: Uzunlik 226 sm x Eni 155 sm x Balandlik 90 sm Uyqu maydoni: Uzunlik 197 sm x Eni 140 sm x Balandligi 41 sm O'tirish maydoni: Chuqurligi 53 sm x Balandligi 42 sm Ramka: kontrplak, tolali taxta, sunta, bahor ilon Orqa yostiqni to'ldirish: ko'pikli poliuretan parchalari, holofiber Yashash joyini to'ldirish: ST standarti poliuretan ko'pik Oyoqlar (tayanchlar) materiali: plastmas",
+    "rating": "5",
+    "id": "6"
+  },
+  {
+    "title": "Divan AIKO Redchet 2, yig'iladigan, uxlash va mehmonxona uchun divan-krovat",
+    "image": [
+      "https://i.postimg.cc/TYwSYKXG/d35qeir4eu2s0bgigj8g-removebg-preview.png",
+      "https://i.postimg.cc/jdm8xvXQ/d35rr152lln9aeomvrsg-removebg-preview.png",
+      "https://i.postimg.cc/Mp1YWwXq/d35p1ld2lln9aeomuko0-removebg-preview.png"
+    ],
+    "price": 6546530,
+    "oldPrice": 12500000,
+    "description": "O‘lchamlari Divan 240×130×80 sm Uxlash maydoni 200x130 sm Mustahkam Velyur matosi To'plam ochiladigan divan, 3 ta yostiq Mahsulot tavsifidagi videoni tomosha qiling Mehmonxona, yotoqxona, uy va ofis uchun divan Material: yog‘och va po‘lat oyoqchalar, LDSP, zigzag prujina (Rossiya)",
+    "rating": "4",
+    "id": "7"
+  },
+  {
+    "title": "title 8",
+    "image": [
+      "https://i.postimg.cc/3RrMX9z0/d35sqdr4eu2s0bgihns0-removebg-preview.png",
+      "https://i.postimg.cc/50zPFz2Q/d35v1o7iub30vbrufdpg-removebg-preview.png",
+      "https://i.postimg.cc/SNSrm3CM/d35sqeniub30vbrue500-removebg-preview.png"
+    ],
+    "price": 6546530,
+    "oldPrice": 12000000,
+    "description": "Yig‘iladigan divan AIKO Nebbia O‘lchamlari: 230×87×70 sm Mustahkam karkas, oyoqlari qaragʻay yogʻochidan tayyorlangan Mustahkam Velutto matosi, 3 ta yostiqlar to'plamda To‘ldirgich: zigzag prujina va porolon (Rossiya) Mehmonxona, yotoqxona, uy va ofis uchun divan",
+    "rating": "5",
+    "id": "8"
+  },
+  {
+    "title": "title 9",
+    "image": [],
+    "price": 11,
+    "oldPrice": 34,
+    "description": "description 9",
+    "rating": "rating 9",
+    "id": "9"
+  },
+  {
+    "title": "title 10",
+    "image": [],
+    "price": 33,
+    "oldPrice": 20,
+    "description": "description 10",
+    "rating": "rating 10",
+    "id": "10"
+  },
+  {
+    "title": "title 11",
+    "image": [],
+    "price": 55,
+    "oldPrice": 86,
+    "description": "description 11",
+    "rating": "rating 11",
+    "id": "11"
+  },
+  {
+    "title": "title 12",
+    "image": [],
+    "price": 64,
+    "oldPrice": 93,
+    "description": "description 12",
+    "rating": "rating 12",
+    "id": "12"
+  }
+] */

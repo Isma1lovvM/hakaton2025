@@ -1,0 +1,41 @@
+.blckBtn {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #141718;
+  font-size: 16px;
+}
+
+.articleList {
+  margin: 80px 0;
+}
+
+.textList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: center;
+  width: 86%;
+}
+
+.articleBox {
+  width: 86%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  gap: 25px;
+}
+
+.articleCart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
