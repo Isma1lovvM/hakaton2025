@@ -28,10 +28,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/singlepage/:id" element={<SinglePage />} />
-        <Route path="/signUp" element={<SignUp />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
