@@ -16,7 +16,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { NavLink } from "react-router-dom";
 import { MdOutlineMail } from "react-icons/md";
 import HomeSwiper from "../../components/homeSwiper/HomeSwiper";
-import SimplyUnique from "../../components/simpyUnique/SimplyUnique";
+import SimplyUnique from "../../components/simplyUnique/SimplyUnique";
 import Category from "../../components/category/Category";
 import NewArrivals from "../../components/newArrivals/NewArrivals";
 import Support from "../../components/support/Support";

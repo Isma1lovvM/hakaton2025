@@ -13,17 +13,17 @@ function SinglePage() {
   let { id } = useParams();
   const [data, setData] = useState(null);
   const [mainImg, setMainImg] = useState(null);
-  const [mainImg1, setMainImg1] = useState(null);
-  const [mainImg2, setMainImg2] = useState(null);
+  // const [mainImg1, setMainImg1] = useState(null);
+  // const [mainImg2, setMainImg2] = useState(null);
 
   useEffect(() => {
-    fetch(`https://68c810475d8d9f51473427eb.mockapi.io/3legant/products/${id}`)
+    fetch(`https://68d6bbe4c2a1754b426bbe49.mockapi.io/app/v1/product/${id}`)
       .then((res) => res.json())
       .then((res) => {
         setData(res);
-        setMainImg(res.image[0]);
-        setMainImg1(res.image[1]);
-        setMainImg2(res.image[2]);
+        setMainImg(res.img);
+        // setMainImg1(res.image[1]);
+        // setMainImg2(res.image[2]);
       })
       .catch((err) => console.log(err));
   }, [id]);
@@ -46,7 +46,7 @@ function SinglePage() {
                 />
               </div>
 
-              <div className="swiperImgs">
+              {/* <div className="swiperImgs">
                 <img
                   src={mainImg}
                   alt="thumb1"
@@ -62,14 +62,14 @@ function SinglePage() {
                   alt="thumb3"
                   onClick={() => setMainImg2(mainImg2)}
                 />
-              </div>
+              </div> */}
             </div>
 
             <div className="productRightContainer">
               <div className="productRight">
-                <img src={data?.rating[0]} alt="" />
+                <img src={data?.rating} alt="" />
                 <h2>{data?.title}</h2>
-                <p>{data?.description}</p>
+                <p>{data?.desc}</p>
                 <span>
                   <p className="wn">{data?.price}сум</p>
                   <p className="nw">{data?.oldPrice}</p>
