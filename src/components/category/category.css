@@ -11,6 +11,9 @@
   position: relative;
   margin-bottom: auto;
 }
+.spann {
+  color: white;
+}
 
 .imgsBox {
   display: flex;
