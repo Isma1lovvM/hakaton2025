@@ -2,7 +2,7 @@ import React from "react";
 import "./category.css";
 
 import { NavLink } from "react-router-dom";
-import cart1Img from "../../assets/cart.svg";
+import cart1Img from "../../assets/kuchu.jpg";
 import cart2Img from "../../assets/cart2.svg";
 import cart3Img from "../../assets/cart3.svg";
 import { FaArrowRight } from "react-icons/fa6";
